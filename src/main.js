@@ -8,6 +8,7 @@ import './assets/index.css'
 import DefaultLayout from '~/layouts/Default.vue'
 
 export default function (Vue, { router, head, isClient }) {
+  // 设置全局环境变量
   Vue.mixin({
     data () {
       return {
