@@ -4,6 +4,7 @@
     <!-- <header class="masthead" :style="{
       backgroundImage: `url(${GRIDSOME_API_URL}${$page.posts.edges[0].node.cover.url})`
     }"> -->
+    
     <header class="masthead" style="background-image: url('/img/home-bg.jpg')">
       <div class="overlay"></div>
       <div class="container">
