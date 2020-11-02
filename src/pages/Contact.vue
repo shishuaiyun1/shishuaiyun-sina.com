@@ -131,10 +131,11 @@ export default {
   },
   methods: {
     async onSubmit() {
+      console.log(`${this.GRIDSOME_API_URL}/contacts`)
       try {
         await axios({
           method: 'POST',
-          url: `${GRIDSOME_API_URL}/contacts`,
+          url: `${this.GRIDSOME_API_URL}/contacts`,
           data: this.from
         })
         window.alert('提交成功')
